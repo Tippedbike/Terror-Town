@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2023.1/staging' branch; Version is '2023.1.18f1 (2b639e48c919) revision 2843550'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'en' Physical Memory: 16212 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16212 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -15,7 +15,7 @@ C:/Users/galin/Unity/GitHub/Terror-Town
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-61735
+59229
 Successfully changed project path to: C:/Users/galin/Unity/GitHub/Terror-Town
 C:/Users/galin/Unity/GitHub/Terror-Town
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/galin/Unity/GitHub/Terror-Town
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16176] Host "[IP] 192.168.1.195 [Port] 0 [Flags] 2 [Guid] 1150453923 [EditorId] 1150453923 [Version] 1048832 [Id] WindowsEditor(7,Galindo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [18932] Host "[IP] 192.168.1.195 [Port] 0 [Flags] 2 [Guid] 1379124206 [EditorId] 1379124206 [Version] 1048832 [Id] WindowsEditor(7,Galindo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16176] Host "[IP] 192.168.1.195 [Port] 0 [Flags] 2 [Guid] 1150453923 [EditorId] 1150453923 [Version] 1048832 [Id] WindowsEditor(7,Galindo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18932] Host "[IP] 192.168.1.195 [Port] 0 [Flags] 2 [Guid] 1379124206 [EditorId] 1379124206 [Version] 1048832 [Id] WindowsEditor(7,Galindo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 5.71 ms, found 3 plugins.
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 5.69 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.1.18f1 (2b639e48c919)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.1.18f1/Editor/Data/Resources/UnitySubsystems
@@ -70,7 +70,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.1.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.1.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.1.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56036
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
 Begin MonoManager ReloadAssembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
@@ -84,41 +84,41 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002442 seconds.
-- Loaded All Assemblies, in  0.299 seconds
+Registered in 0.002720 seconds.
+- Loaded All Assemblies, in  0.308 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.252 seconds
-Domain Reload Profiling: 549ms
-	BeginReloadAssembly (94ms)
+- Finished resetting the current domain, in  0.282 seconds
+Domain Reload Profiling: 589ms
+	BeginReloadAssembly (92ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (127ms)
-		LoadAssemblies (92ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (136ms)
+		LoadAssemblies (90ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (124ms)
-			TypeCache.Refresh (123ms)
-				TypeCache.ScanAssembly (113ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (132ms)
+				TypeCache.ScanAssembly (122ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (252ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (283ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (214ms)
+		SetupLoadedEditorAssemblies (237ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (7ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (155ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (166ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -141,50 +141,50 @@ C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
 Symbol file LoadedFromMemory doesn't match image C:\Users\galin\Unity\GitHub\Terror-Town\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\galin\Unity\GitHub\Terror-Town\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.792 seconds
-Refreshing native plugins compatible for Editor in 1.69 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.793 seconds
+Refreshing native plugins compatible for Editor in 1.96 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.410 seconds
-Domain Reload Profiling: 1199ms
-	BeginReloadAssembly (248ms)
+- Finished resetting the current domain, in  0.544 seconds
+Domain Reload Profiling: 1335ms
+	BeginReloadAssembly (295ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (44ms)
-	LoadAllAssembliesAndSetupDomain (456ms)
-		LoadAssemblies (256ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (418ms)
+		LoadAssemblies (265ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (276ms)
-			TypeCache.Refresh (264ms)
-				TypeCache.ScanAssembly (255ms)
-			ScanForSourceGeneratedMonoScriptInfo (9ms)
+		AnalyzeDomain (250ms)
+			TypeCache.Refresh (236ms)
+				TypeCache.ScanAssembly (227ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
 			ResolveRequiredComponents (3ms)
-	FinalizeReload (410ms)
+	FinalizeReload (544ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (272ms)
+		SetupLoadedEditorAssemblies (376ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (47ms)
-			ProcessInitializeOnLoadAttributes (200ms)
-			ProcessInitializeOnLoadMethodAttributes (16ms)
-			AfterProcessingInitializeOnLoad (2ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (284ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3126 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (53.1 KB). Loaded Objects now: 3664.
-Memory consumption went from 131.7 MB to 131.6 MB.
-Total: 3.814800 ms (FindLiveObjects: 0.205600 ms CreateObjectMapping: 0.137200 ms MarkObjects: 3.396600 ms  DeleteObjects: 0.073800 ms)
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (53.2 KB). Loaded Objects now: 3668.
+Memory consumption went from 132.1 MB to 132.0 MB.
+Total: 3.737400 ms (FindLiveObjects: 0.279300 ms CreateObjectMapping: 0.159800 ms MarkObjects: 3.205200 ms  DeleteObjects: 0.091700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
@@ -202,204 +202,42 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 327880.555038 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_Bakery.fbx
-  artifactKey: Guid(ea9803764c3c1e74b83f6dda1cfa0885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_Bakery.fbx using Guid(ea9803764c3c1e74b83f6dda1cfa0885) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b843fa3d0808f274369e262f759a6bcd') in 0.188401 seconds
+  Time since last request: 27342.128067 seconds.
+  path: Assets/CItyPeople/CityPeopleLite/Meshes/casual_Female_G.fbx
+  artifactKey: Guid(efa7cf83928a3bd42935d7898c6fe1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CItyPeople/CityPeopleLite/Meshes/casual_Female_G.fbx using Guid(efa7cf83928a3bd42935d7898c6fe1df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc75bed5664042338d7645334f737f6') in 0.111538 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 75
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_Fast Food.fbx
-  artifactKey: Guid(4ddf9dbec6534a14a9612193ee06f4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_Fast Food.fbx using Guid(4ddf9dbec6534a14a9612193ee06f4d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '344de8759cbac08f8e996b61e1d2ca97') in 0.026795 seconds
+  Time since last request: 0.000025 seconds.
+  path: Assets/CItyPeople/CityPeopleLite/Prefabs/casual_Male_K.prefab
+  artifactKey: Guid(2435736d6adca23458edd7c80c901e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CItyPeople/CityPeopleLite/Prefabs/casual_Male_K.prefab using Guid(2435736d6adca23458edd7c80c901e3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb69d84a0d9ddeafa7167f633a747986') in 0.057707 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Models/Natures_Bush_03.fbx
-  artifactKey: Guid(878eb4575d3db2143bff9ebf5c266974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Models/Natures_Bush_03.fbx using Guid(878eb4575d3db2143bff9ebf5c266974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b18a4655b749e597e9df66f7cdfbc1fe') in 0.025979 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_Clothing.fbx
-  artifactKey: Guid(6f6936b8f5098f34ab9d2dbe641716f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_Clothing.fbx using Guid(6f6936b8f5098f34ab9d2dbe641716f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d9a27ee70b0fd77f8201f65614ff10') in 0.034137 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Models/Building_Super Market.fbx
-  artifactKey: Guid(fad753de86ef7464790653995e61e7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Models/Building_Super Market.fbx using Guid(fad753de86ef7464790653995e61e7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9839d986f29c6cfa38d3187993a7860') in 0.033794 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Models/Natures_Bush_01.fbx
-  artifactKey: Guid(736724502c2975348b2f19e5e99e1ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Models/Natures_Bush_01.fbx using Guid(736724502c2975348b2f19e5e99e1ec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baba828e40799fe050aabb84c7065011') in 0.044773 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 3.214422 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Textures/Building Sky_small_color01.png
-  artifactKey: Guid(bee58bddcdaac384fbe8998755d603fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Textures/Building Sky_small_color01.png using Guid(bee58bddcdaac384fbe8998755d603fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a39327e902c14e7561c3f373ebc114ea') in 0.020967 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Textures/Building_Fast Food.png
-  artifactKey: Guid(06b4c0119aac8524ca9230c7fabe315b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Textures/Building_Fast Food.png using Guid(06b4c0119aac8524ca9230c7fabe315b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb32588872f72c87d1c6d3b06a829ca9') in 0.012144 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Textures/Building_House_04_color02.png
-  artifactKey: Guid(38f25d053637e924099f07d4d995d256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Textures/Building_House_04_color02.png using Guid(38f25d053637e924099f07d4d995d256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf45585acbcd57886e37487496e8c5de') in 0.014287 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
+Number of asset objects unloaded after import = 95
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Textures/Building_Books Shop.png
-  artifactKey: Guid(29d6ba98d5bca734695ddaf5fdf19baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Textures/Building_Books Shop.png using Guid(29d6ba98d5bca734695ddaf5fdf19baf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a698734d481588d406b272ba3d6f2f8') in 0.009935 seconds
+  path: Assets/CItyPeople/CityPeopleLite/Meshes/casual_Male_K.fbx
+  artifactKey: Guid(b7c035cdee4609f4689888a8474b63b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CItyPeople/CityPeopleLite/Meshes/casual_Male_K.fbx using Guid(b7c035cdee4609f4689888a8474b63b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f23828bf739d89f385255bd7b41dbd9') in 0.023049 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Textures/Building_Gas Station.png
-  artifactKey: Guid(f1067f42b9db674419e1ca765b447e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Textures/Building_Gas Station.png using Guid(f1067f42b9db674419e1ca765b447e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d1ba27eb773b224a56883781caac36') in 0.010391 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Textures/Building_House_01_color03.png
-  artifactKey: Guid(08441d6894e45b14ca36aee71ac5ba19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Textures/Building_House_01_color03.png using Guid(08441d6894e45b14ca36aee71ac5ba19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4054b4251aca237d35571f307bfb872') in 0.010163 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Textures/Building Sky_small_color02.png
-  artifactKey: Guid(81c454060dd1fd74d9e2b2e1ca3d0a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Textures/Building Sky_small_color02.png using Guid(81c454060dd1fd74d9e2b2e1ca3d0a58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e29ffddb9b9775656c24f6b6e30f6a') in 0.011768 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Textures/Building_Bar.png
-  artifactKey: Guid(dcf28aa94c297d441b5bb2e655c5b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Textures/Building_Bar.png using Guid(dcf28aa94c297d441b5bb2e655c5b1a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd01f98cc30b032ae5105a4213a10a09') in 0.011503 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 18.852301 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_Ambulance_separate.fbx
-  artifactKey: Guid(1acbee872179ec040aac4503ec160fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_Ambulance_separate.fbx using Guid(1acbee872179ec040aac4503ec160fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0d1df4d691b5a269b23d02937b60fd') in 0.142703 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 31
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_Pick up Truck_separate.fbx
-  artifactKey: Guid(c99e98d2e12a88c42912742cf2de3eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_Pick up Truck_separate.fbx using Guid(c99e98d2e12a88c42912742cf2de3eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927d9205fe5a3e54491ee7988c36f32c') in 0.096772 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 31
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_Bus_separate.fbx
-  artifactKey: Guid(bec0886ced73844469c2edf3ebb4b047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Models/Vehicle_Bus_separate.fbx using Guid(bec0886ced73844469c2edf3ebb4b047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb2c9581024c3ee9e5c1b268fc6e27e') in 0.035934 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 31
-========================================================================
-Received Import Request.
-  Time since last request: 1.279255 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Bus_color02.mat
-  artifactKey: Guid(1ff3955181d667949a055e4e15ec3e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Materials/Vehicle_Bus_color02.mat using Guid(1ff3955181d667949a055e4e15ec3e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8382299dacd7d86cfb8d57dbddffff31') in 0.124812 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.234017 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Models/Props_Roof Antenna.fbx
-  artifactKey: Guid(cbdf54dd7a2ad4245a1dd6ccba9cc813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Models/Props_Roof Antenna.fbx using Guid(cbdf54dd7a2ad4245a1dd6ccba9cc813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98e2073a9b9fd258984ac20eafe029f5') in 0.010342 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Models/Road T_Intersection_01.fbx
-  artifactKey: Guid(4026b0b37aa0fed4d95ed976da00e63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Models/Road T_Intersection_01.fbx using Guid(4026b0b37aa0fed4d95ed976da00e63f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33c5f0f214bfccbf3ec1b2fe1e59004') in 0.010996 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Models/Road Split Line.fbx
-  artifactKey: Guid(63ec040e5e2c7354191119a82429932a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Models/Road Split Line.fbx using Guid(63ec040e5e2c7354191119a82429932a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb95208f2c8f8a51b79fa432758d8cca') in 0.013090 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Models/Props_Traffic cone.fbx
-  artifactKey: Guid(85d54012e6db84f428646fd470b7a555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Models/Props_Traffic cone.fbx using Guid(85d54012e6db84f428646fd470b7a555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0398a0a2f2029858ec03a181eb6ffcd7') in 0.012140 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Models/Props_Windmill.fbx
-  artifactKey: Guid(2605c818ea0c2df4092b898402e71aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Models/Props_Windmill.fbx using Guid(2605c818ea0c2df4092b898402e71aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71dabd399ec64761b63dd24d8f4d2a58') in 0.018606 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Models/Props_Roof Helipad.fbx
-  artifactKey: Guid(b602d657274d2c24b88fe0f3fa83287b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Models/Props_Roof Helipad.fbx using Guid(b602d657274d2c24b88fe0f3fa83287b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca1bc1810980de70ddbcf54ac2c2751') in 0.013464 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 79
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/SimplePoly City - Low Poly Assets/Models/Road Sidewalk.fbx
-  artifactKey: Guid(be6b47deae1839141b5dea85228cfa3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SimplePoly City - Low Poly Assets/Models/Road Sidewalk.fbx using Guid(be6b47deae1839141b5dea85228cfa3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab1a2a32f43fa453362060704ea1ce6') in 0.013045 seconds
+  path: Assets/CItyPeople/CityPeopleLite/Prefabs/casual_Male_G.prefab
+  artifactKey: Guid(f71041fd118fbb34aa9d2dd6a1d96fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CItyPeople/CityPeopleLite/Prefabs/casual_Male_G.prefab using Guid(f71041fd118fbb34aa9d2dd6a1d96fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1e984337d9eb6df8c2f3a1e1727d90d') in 0.056099 seconds
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
+Number of asset objects unloaded after import = 91
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
