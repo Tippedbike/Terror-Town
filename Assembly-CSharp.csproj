@@ -55,8 +55,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets/Scripts/PlayerController.cs" />
+    <Compile Include="Assets/Scripts/FollowPlayer.cs" />
     <Compile Include="Assets/CItyPeople/CityPeopleLite/Demo_Scenes/Scripts/CityPeople.cs" />
-    <Compile Include="Assets/Scripts/NewBehaviourScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets/Helicopter/Info.txt" />
