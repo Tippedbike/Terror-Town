@@ -15,25 +15,35 @@ namespace CityPeople
             if (animator != null)
             {
                 myClips = animator.runtimeAnimatorController.animationClips;
-                PlayAnyClip();
-                StartCoroutine(ShuffleClips());
+                StartCoroutine(StartWalking());
+                //PlayAnyClip();
+                //StartCoroutine(ShuffleClips());
             }
-
+        }
+        void Update()
+        {
+            
         }
 
-        void PlayAnyClip()
-        {
-            var cl = myClips[Random.Range(0, myClips.Length)];
-            animator.CrossFadeInFixedTime(cl.name, 1.0f, -1, Random.value * cl.length);
-        }
+        // void PlayAnyClip()
+        // {
+        //     var cl = myClips[Random.Range(0, myClips.Length)];
+        //     animator.CrossFadeInFixedTime(cl.name, 1.0f, -1, Random.value * cl.length);
+        // }
 
-        IEnumerator ShuffleClips()
+        // IEnumerator ShuffleClips()
+        // {
+        //     while (true)
+        //     {
+        //         yield return new WaitForSeconds(15.0f + Random.value * 5.0f);
+        //         PlayAnyClip();
+        //     }
+        // }
+
+        IEnumerator StartWalking()
         {
-            while (true)
-            {
-                yield return new WaitForSeconds(15.0f + Random.value * 5.0f);
-                PlayAnyClip();
-            }
+            yield return new WaitForSeconds(0.5f);
+            animator.SetTrigger("Walking");
         }
 
     }
