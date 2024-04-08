@@ -1,23 +1,30 @@
+Unity Editor version:    2023.1.18f1 (2b639e48c919)
+Branch:                  2023.1/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.2.1 (Build 20D74)
+Darwin version:          20.3.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
 Using pre-set license
-Built from '2023.1/staging' branch; Version is '2023.1.18f1 (2b639e48c919) revision 2843550'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16212 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+Pro License: YES
 
 COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\2023.1.18f1\Editor\Unity.exe
+/Users/game3/Desktop/2023.1.18f1/Unity.app/Contents/MacOS/Unity
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/galin/Unity/GitHub/Terror-Town
+/Users/game3/Desktop/Create With Code/Terror Town
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59229
-Successfully changed project path to: C:/Users/galin/Unity/GitHub/Terror-Town
-C:/Users/galin/Unity/GitHub/Terror-Town
+56372
+Successfully changed project path to: /Users/game3/Desktop/Create With Code/Terror Town
+/Users/game3/Desktop/Create With Code/Terror Town
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,76 +56,75 @@ C:/Users/galin/Unity/GitHub/Terror-Town
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [5712] Host "[IP] 192.168.1.195 [Port] 0 [Flags] 2 [Guid] 819741853 [EditorId] 819741853 [Version] 1048832 [Id] WindowsEditor(7,Galindo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [4578991616] Host "[IP] 100.66.165.140 [Port] 0 [Flags] 2 [Guid] 942418793 [EditorId] 942418793 [Version] 1048832 [Id] OSXEditor(0,AH4TFC0240LCY.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [5712] Host "[IP] 192.168.1.195 [Port] 0 [Flags] 2 [Guid] 819741853 [EditorId] 819741853 [Version] 1048832 [Id] WindowsEditor(7,Galindo) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [4578991616] Host "[IP] 100.66.165.140 [Port] 0 [Flags] 2 [Guid] 942418793 [EditorId] 942418793 [Version] 1048832 [Id] OSXEditor(0,AH4TFC0240LCY.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 6.40 ms, found 3 plugins.
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Library Redirect Path: Library/Refreshing native plugins compatible for Editor in 3.13 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2023.1.18f1 (2b639e48c919)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.1.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/galin/Unity/GitHub/Terror-Town/Assets
+[Subsystems] Discovering subsystems at path /Users/game3/Desktop/2023.1.18f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/game3/Desktop/Create With Code/Terror Town/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
-    Vendor:   NVIDIA
-    VRAM:     8038 MB
-    Driver:   31.0.15.4601
+iMac preferred device: AMD Radeon Pro 5500 XT (high power)
+Metal devices available: 1
+0: AMD Radeon Pro 5500 XT (high power)
+Using device AMD Radeon Pro 5500 XT (high power)
+Initializing Metal device caps: AMD Radeon Pro 5500 XT
 Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.1.18f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.1.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.1.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Mono path[0] = '/Users/game3/Desktop/2023.1.18f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Users/game3/Desktop/2023.1.18f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Users/game3/Desktop/2023.1.18f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56785
 Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.1.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002084 seconds.
-- Loaded All Assemblies, in  0.317 seconds
-Native extension for WindowsStandalone target not found
+Register platform support module: /Users/game3/Desktop/2023.1.18f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000907 seconds.
+- Loaded All Assemblies, in  0.384 seconds
+Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-- Finished resetting the current domain, in  0.271 seconds
-Domain Reload Profiling: 587ms
-	BeginReloadAssembly (105ms)
+icall.c:1842:
+icall.c:1842:
+- Finished resetting the current domain, in  0.356 seconds
+Domain Reload Profiling: 740ms
+	BeginReloadAssembly (83ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (29ms)
+	RebuildCommonClasses (43ms)
 	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (126ms)
-		LoadAssemblies (102ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (195ms)
+		LoadAssemblies (82ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (123ms)
-			TypeCache.Refresh (122ms)
-				TypeCache.ScanAssembly (113ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (271ms)
+		AnalyzeDomain (192ms)
+			TypeCache.Refresh (191ms)
+				TypeCache.ScanAssembly (175ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (357ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (230ms)
+		SetupLoadedEditorAssemblies (294ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (158ms)
-			ProcessInitializeOnLoadMethodAttributes (52ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (205ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -127,266 +133,450 @@ Domain Reload Profiling: 587ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\galin\Unity\GitHub\Terror-Town\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\galin\Unity\GitHub\Terror-Town\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.803 seconds
-Refreshing native plugins compatible for Editor in 2.24 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/game3/Desktop/Create With Code/Terror Town/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/game3/Desktop/Create With Code/Terror Town/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.960 seconds
+Refreshing native plugins compatible for Editor in 1.47 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.533 seconds
-Domain Reload Profiling: 1334ms
-	BeginReloadAssembly (284ms)
+- Finished resetting the current domain, in  0.855 seconds
+Domain Reload Profiling: 1815ms
+	BeginReloadAssembly (269ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (33ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (434ms)
-		LoadAssemblies (262ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (583ms)
+		LoadAssemblies (285ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (268ms)
-			TypeCache.Refresh (254ms)
-				TypeCache.ScanAssembly (244ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (533ms)
+		AnalyzeDomain (359ms)
+			TypeCache.Refresh (336ms)
+				TypeCache.ScanAssembly (324ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (855ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (362ms)
+		SetupLoadedEditorAssemblies (560ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (271ms)
-			ProcessInitializeOnLoadMethodAttributes (17ms)
-			AfterProcessingInitializeOnLoad (3ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (427ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launching external process: /Users/game3/Desktop/2023.1.18f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (53.2 KB). Loaded Objects now: 3668.
-Memory consumption went from 132.1 MB to 132.1 MB.
-Total: 4.263700 ms (FindLiveObjects: 0.235000 ms CreateObjectMapping: 0.178000 ms MarkObjects: 3.769100 ms  DeleteObjects: 0.080100 ms)
+Unloading 3129 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (65.0 KB). Loaded Objects now: 3655.
+Memory consumption went from 269.5 MB to 269.5 MB.
+Total: 5.969461 ms (FindLiveObjects: 0.425541 ms CreateObjectMapping: 0.583992 ms MarkObjects: 4.839709 ms  DeleteObjects: 0.119179 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 27342.142845 seconds.
-  path: Assets/CItyPeople/CityPeopleLite/Meshes/Doctor_Male_B.fbx
-  artifactKey: Guid(87dd643ab949229418ba9400e67cf1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CItyPeople/CityPeopleLite/Meshes/Doctor_Male_B.fbx using Guid(87dd643ab949229418ba9400e67cf1c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c13e23858168f4ec8d6ae7c30b6b863') in 0.109268 seconds
+  Time since last request: 22354.932909 seconds.
+  path: Assets/Scripts/FollowPlayer.cs
+  artifactKey: Guid(196b3632d0f2c4fa3a3fd74e1bcb654b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FollowPlayer.cs using Guid(196b3632d0f2c4fa3a3fd74e1bcb654b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f0f32ef1011385373b415d61605052') in 0.001394 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 79
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/CItyPeople/CityPeopleLite/Prefabs/casual_Female_K.prefab
-  artifactKey: Guid(bcc8c8f342f71a7439ac0579aa86f030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CItyPeople/CityPeopleLite/Prefabs/casual_Female_K.prefab using Guid(bcc8c8f342f71a7439ac0579aa86f030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2977517f6c60005022de542e9e033c') in 0.066613 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+  Time since last request: 178.168856 seconds.
+  path: Assets/Personal/New Material.mat
+  artifactKey: Guid(e46d45c38f4675a46ae34374bd9f3d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personal/New Material.mat using Guid(e46d45c38f4675a46ae34374bd9f3d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '200fb3427c16402b19197baa5beb8469') in 0.092232 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 93
+Number of asset objects unloaded after import = 1
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000011 seconds.
-  path: Assets/CItyPeople/CityPeopleLite/Meshes/casual_Female_K.fbx
-  artifactKey: Guid(b6dde1c6fee9fe4478fbb2c3a0c333b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CItyPeople/CityPeopleLite/Meshes/casual_Female_K.fbx using Guid(b6dde1c6fee9fe4478fbb2c3a0c333b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ff40d6ac8c224eb95cf17eaee61c4f') in 0.024961 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
+  Time since last request: 0.389776 seconds.
+  path: Assets/Helicopter/Helicopter.fbx
+  artifactKey: Guid(e731a1ac8914e2548ae80adaba4759b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Helicopter/Helicopter.fbx using Guid(e731a1ac8914e2548ae80adaba4759b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca94473530784cd1e78d4af88a0da1ac') in 0.108527 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 79
-========================================================================
-Received Import Request.
-  Time since last request: 0.000010 seconds.
-  path: Assets/CItyPeople/CityPeopleLite/Prefabs/elder_Female_A.prefab
-  artifactKey: Guid(bcc8732b8b44622449c23934f89e68c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/CItyPeople/CityPeopleLite/Prefabs/elder_Female_A.prefab using Guid(bcc8732b8b44622449c23934f89e68c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b022ea85d0c6995495aba070d85a7f') in 0.050345 seconds
-Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
-To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 97
+Number of asset objects unloaded after import = 22
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\galin\Unity\GitHub\Terror-Town\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\galin\Unity\GitHub\Terror-Town\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.524 seconds
-Refreshing native plugins compatible for Editor in 2.07 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image /Users/game3/Desktop/Create With Code/Terror Town/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/game3/Desktop/Create With Code/Terror Town/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.742 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.689 seconds
-Domain Reload Profiling: 1212ms
-	BeginReloadAssembly (132ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (18ms)
-	LoadAllAssembliesAndSetupDomain (339ms)
-		LoadAssemblies (195ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (210ms)
-			TypeCache.Refresh (206ms)
-				TypeCache.ScanAssembly (199ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (690ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (326ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (234ms)
-			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (4ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3118 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.9 KB). Loaded Objects now: 3680.
-Memory consumption went from 140.8 MB to 140.8 MB.
-Total: 3.127700 ms (FindLiveObjects: 0.155800 ms CreateObjectMapping: 0.090000 ms MarkObjects: 2.842500 ms  DeleteObjects: 0.037800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
-Symbol file LoadedFromMemory doesn't match image C:\Users\galin\Unity\GitHub\Terror-Town\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\galin\Unity\GitHub\Terror-Town\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.555 seconds
-Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.721 seconds
-Domain Reload Profiling: 1275ms
-	BeginReloadAssembly (131ms)
+- Finished resetting the current domain, in  0.702 seconds
+Domain Reload Profiling: 1444ms
+	BeginReloadAssembly (162ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (25ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (19ms)
-	LoadAllAssembliesAndSetupDomain (369ms)
-		LoadAssemblies (202ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (503ms)
+		LoadAssemblies (246ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (234ms)
-			TypeCache.Refresh (230ms)
-				TypeCache.ScanAssembly (222ms)
+		AnalyzeDomain (312ms)
+			TypeCache.Refresh (307ms)
+				TypeCache.ScanAssembly (298ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (721ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (702ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (330ms)
+		SetupLoadedEditorAssemblies (373ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
+			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (237ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (284ms)
 			ProcessInitializeOnLoadMethodAttributes (20ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 1.90 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3119 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (31.0 KB). Loaded Objects now: 3681.
-Memory consumption went from 143.0 MB to 143.0 MB.
-Total: 2.876400 ms (FindLiveObjects: 0.198300 ms CreateObjectMapping: 0.217600 ms MarkObjects: 2.427100 ms  DeleteObjects: 0.032600 ms)
+Unloading 3120 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (31.0 KB). Loaded Objects now: 3699.
+Memory consumption went from 272.0 MB to 272.0 MB.
+Total: 3.777522 ms (FindLiveObjects: 0.216685 ms CreateObjectMapping: 0.203734 ms MarkObjects: 3.320046 ms  DeleteObjects: 0.036248 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1148.460458 seconds.
+  path: Packages/com.unity.ide.rider
+  artifactKey: Guid(ea5aa18a49e4f29d74984ea0ea11a238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.ide.rider using Guid(ea5aa18a49e4f29d74984ea0ea11a238) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6527deef70694e59f58e03d09b54c6d0') in 0.001512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 153.167049 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs
+  artifactKey: Guid(1bead5454a5964287b55b67e5d9719e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs using Guid(1bead5454a5964287b55b67e5d9719e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25945f1e6ebdb09f1184aec731568f27') in 0.000334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.019102 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/READ ME.txt
+  artifactKey: Guid(0792d4050170029478757c87c0c379e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/READ ME.txt using Guid(0792d4050170029478757c87c0c379e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fbeb5e195880ed1f4f65017b81e9fb8') in 0.015059 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 34.351207 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs
+  artifactKey: Guid(dac552d33239a9145afb6dbc5232730f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs using Guid(dac552d33239a9145afb6dbc5232730f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7c715a6eba42edbaacceccdc52c705') in 0.000306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.651831 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey
+  artifactKey: Guid(4fbb2540ae9ead44483eff968a5a9608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey using Guid(4fbb2540ae9ead44483eff968a5a9608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3789e767197a3afd09d514436e988b') in 0.000297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.030763 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket01_Grey.prefab
+  artifactKey: Guid(40e1839cf65329c4aa6373c29c2a062f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket01_Grey.prefab using Guid(40e1839cf65329c4aa6373c29c2a062f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4dbc321b39af67d8b21b3337534546a') in 0.067152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket12_Grey.prefab
+  artifactKey: Guid(72fec9ce41074864785fe9e22da121bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket12_Grey.prefab using Guid(72fec9ce41074864785fe9e22da121bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce3d4ac6daa46c4d1bdaefdc0b0ed579') in 0.007028 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket11_Grey.prefab
+  artifactKey: Guid(3da8b9e29d463b84598bab8647445dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket11_Grey.prefab using Guid(3da8b9e29d463b84598bab8647445dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81026bfa4af6a4098057d9c126b941be') in 0.005558 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket06_Grey.prefab
+  artifactKey: Guid(7791af2a4983aa543a539b9502db5168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket06_Grey.prefab using Guid(7791af2a4983aa543a539b9502db5168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e0408b8754ba67d74ce89a9bb80b59') in 0.005852 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket14_Grey.prefab
+  artifactKey: Guid(88e79225bfe7b544391cb2b5fb20164c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket14_Grey.prefab using Guid(88e79225bfe7b544391cb2b5fb20164c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28309a8995defbb6e75fe8f6e208ae59') in 0.006608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket17_Grey.prefab
+  artifactKey: Guid(a809b1bbe3d22544e9a919f0eda241aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket17_Grey.prefab using Guid(a809b1bbe3d22544e9a919f0eda241aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b24d5d3231726fbf57bd2c07d62367e') in 0.006377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket18_Grey.prefab
+  artifactKey: Guid(98cdf144a0c73f940a711a6ec5ed563c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket18_Grey.prefab using Guid(98cdf144a0c73f940a711a6ec5ed563c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25e6784511fbd870a7ea8c1fd873fccd') in 0.005535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket25_Grey.prefab
+  artifactKey: Guid(ec83c4e9a9128c847ae82d569a85f7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket25_Grey.prefab using Guid(ec83c4e9a9128c847ae82d569a85f7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80be87991870beb0af1bbf37d92ec85') in 0.005970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket30_Grey.prefab
+  artifactKey: Guid(9ca2404976c35624bbc4c0777b8e56d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket30_Grey.prefab using Guid(9ca2404976c35624bbc4c0777b8e56d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6f6775ea4da375d3ddac4f0348c332') in 0.006303 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket15_Grey.prefab
+  artifactKey: Guid(e7ea29554e0ecca4991c27160bb10eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket15_Grey.prefab using Guid(e7ea29554e0ecca4991c27160bb10eab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '314a56ce557aaddda49131d5684f74be') in 0.005713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket03_Grey.prefab
+  artifactKey: Guid(44e4bc9b92cc5d94bae579cb51efda9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket03_Grey.prefab using Guid(44e4bc9b92cc5d94bae579cb51efda9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b5626e5f3d866d8e7776ab1b128bf5') in 0.006043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket21_Grey.prefab
+  artifactKey: Guid(8024477cb7a56154fbcdd301219fb132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket21_Grey.prefab using Guid(8024477cb7a56154fbcdd301219fb132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7174c28a3e177341a16d150324b03309') in 0.006959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket10_Grey.prefab
+  artifactKey: Guid(54c76dcf0d752004ca745b02c8c1a75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket10_Grey.prefab using Guid(54c76dcf0d752004ca745b02c8c1a75d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7081c031f4fb16a54b1667d51820e2') in 0.006069 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket26_Grey.prefab
+  artifactKey: Guid(98909b2fcc0dae144a70bb876ca5562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket26_Grey.prefab using Guid(98909b2fcc0dae144a70bb876ca5562c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1977ebfe78c0b9e2526878754f673614') in 0.006087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket24_Grey.prefab
+  artifactKey: Guid(fd60628870817c04dad5c05854570b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket24_Grey.prefab using Guid(fd60628870817c04dad5c05854570b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e588a5ddfd623d1ab2676c84b7cf44') in 0.006613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket20_Grey.prefab
+  artifactKey: Guid(2dc0e72f48efa094996be8621ad92a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket20_Grey.prefab using Guid(2dc0e72f48efa094996be8621ad92a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeae46f15043e418f24caf6d3a279633') in 0.006138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket07_Grey.prefab
+  artifactKey: Guid(1d2ca58cc67f60849bf1ac5779914c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket07_Grey.prefab using Guid(1d2ca58cc67f60849bf1ac5779914c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25d2679bd9ee6e20ad9368645412bb7') in 0.007420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket13_Grey.prefab
+  artifactKey: Guid(c9fa3d485c982d04597f6dc6f89d6db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket13_Grey.prefab using Guid(c9fa3d485c982d04597f6dc6f89d6db8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc93022c241c6a8e016519acee625d95') in 0.006573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket05_Grey.prefab
+  artifactKey: Guid(9132b6edd9178b943986a049d9e3c590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket05_Grey.prefab using Guid(9132b6edd9178b943986a049d9e3c590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a38019f67b9f832b89739c1de57072') in 0.006040 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket29_Grey.prefab
+  artifactKey: Guid(18b82e2761b37754fa282ffd7295c5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket29_Grey.prefab using Guid(18b82e2761b37754fa282ffd7295c5f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822941f34aa6353917d3f773975950a4') in 0.006012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket04_Grey.prefab
+  artifactKey: Guid(4ad3bc25974961d4d99e3a48e735874a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket04_Grey.prefab using Guid(4ad3bc25974961d4d99e3a48e735874a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a008a32353bab4e318f992ffc2f19985') in 0.005213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket28_Grey.prefab
+  artifactKey: Guid(e46491d19bf932a4080a750d4b34207e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket28_Grey.prefab using Guid(e46491d19bf932a4080a750d4b34207e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e70e0afbd1b6e4a895711852150f8be') in 0.006883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket23_Grey.prefab
+  artifactKey: Guid(3dfb132e9b834f64ba2bf317d1d150ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket23_Grey.prefab using Guid(3dfb132e9b834f64ba2bf317d1d150ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd46f848bfeaa33a95b4c6d97efa840e') in 0.006163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket19_Grey.prefab
+  artifactKey: Guid(a46ad5aa839471343ad678ccf1fa6a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket19_Grey.prefab using Guid(a46ad5aa839471343ad678ccf1fa6a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6939fc5ce57c43e5c6320ff383ce744c') in 0.005971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket09_Grey.prefab
+  artifactKey: Guid(da17a613b68ae05468351a2c3f7d7530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket09_Grey.prefab using Guid(da17a613b68ae05468351a2c3f7d7530) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d485c018b9414911b73b5c1336f255') in 0.006002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket16_Grey.prefab
+  artifactKey: Guid(09953c8eb4fcb7d4b8e4940fcef25e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket16_Grey.prefab using Guid(09953c8eb4fcb7d4b8e4940fcef25e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c441b4f25cfd4d02cf42a6627f65b076') in 0.006869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket08_Grey.prefab
+  artifactKey: Guid(8f6022504be7cb24498ac46dd8d55e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket08_Grey.prefab using Guid(8f6022504be7cb24498ac46dd8d55e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33f22fbf2843ec5492288cd26103f7d1') in 0.006894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket27_Grey.prefab
+  artifactKey: Guid(d3e392c08fa02b84bbe544cc486905b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket27_Grey.prefab using Guid(d3e392c08fa02b84bbe544cc486905b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa34eba5931a614ff4bfd9d870e1815') in 0.007643 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket22_Grey.prefab
+  artifactKey: Guid(7cd2e36d9f07c3540929f65136bf0c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AurynSky/Rockets Missiles and Bombs/Prefabs/Grey/Rocket22_Grey.prefab using Guid(7cd2e36d9f07c3540929f65136bf0c2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987121821831cff625a33efe34f0d235') in 0.006186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
