@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DetectCollision : MonoBehaviour
 {
+      public ParticleSystem explosionParticles;
     // Start is called before the first frame update
     void Start()
     {
@@ -11,10 +12,13 @@ public class DetectCollision : MonoBehaviour
     }
     void OnCollisionEnter(Collision other)
     {
-     if(other.CompareTag("Building"))
+        Destroy(gameObject);
+
+     if(other.gameObject.CompareTag("Building"))
      {
-     Destroy(other.gameObject);
-     Destroy(gameObject);
+       Destroy(other.gameObject);
+       Destroy(gameObject);
+       explosionParticles.Play(); 
      }
     }
     // Update is called once per frame
