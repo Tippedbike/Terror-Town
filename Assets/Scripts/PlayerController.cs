@@ -49,6 +49,7 @@ transform.position = new Vector3(transform.position.x, transform.position.y, zRa
         {
             //launchs projetile from player
             Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+            //use offset from prototype 1 to prevent spawning from the helicopter
         }
 
     }
