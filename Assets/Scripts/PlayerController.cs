@@ -11,6 +11,7 @@ public class PlayerContoller : MonoBehaviour
     public float xRange = 15; 
     public float zRange = 15;
     public GameObject projectilePrefab; 
+    public Vector3 offset = new Vector3(0, 0, 0);
     // Start is called before the first frame update
     void Start()
     {
@@ -48,7 +49,7 @@ transform.position = new Vector3(transform.position.x, transform.position.y, zRa
          if ( Input.GetKeyDown(KeyCode.Space))
         {
             //launchs projetile from player
-            Instantiate(projectilePrefab, transform.position, projectilePrefab.transform.rotation);
+            Instantiate(projectilePrefab, transform.position + offset, projectilePrefab.transform.rotation);
             //use offset from prototype 1 to prevent spawning from the helicopter
         }
 

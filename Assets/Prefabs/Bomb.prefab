@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: -6533657222381187624}
   - component: {fileID: 1296223572396239989}
   - component: {fileID: 1466366854279547122}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Bomb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,9 +156,41 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6411819995131127276}
     m_Modifications:
+    - target: {fileID: 1000010336741610, guid: acf39d9f4addf294d93fa56fa373961b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011298463270, guid: acf39d9f4addf294d93fa56fa373961b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011796581256, guid: acf39d9f4addf294d93fa56fa373961b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 1000011797152326, guid: acf39d9f4addf294d93fa56fa373961b, type: 3}
       propertyPath: m_Name
       value: BigExplosionEffect
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011797152326, guid: acf39d9f4addf294d93fa56fa373961b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012348499044, guid: acf39d9f4addf294d93fa56fa373961b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013371323466, guid: acf39d9f4addf294d93fa56fa373961b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014207458990, guid: acf39d9f4addf294d93fa56fa373961b, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1108256732129644, guid: acf39d9f4addf294d93fa56fa373961b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4000010212820824, guid: acf39d9f4addf294d93fa56fa373961b, type: 3}
       propertyPath: m_LocalScale.x
