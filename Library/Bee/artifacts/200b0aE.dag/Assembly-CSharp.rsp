@@ -364,6 +364,7 @@
 -analyzer:"/Users/game3/Desktop/2023.1.18f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Users/game3/Desktop/2023.1.18f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/CItyPeople/CityPeopleLite/Demo_Scenes/Scripts/CityPeople.cs"
+"Assets/Scripts/Building.cs"
 "Assets/Scripts/Bullet.cs"
 "Assets/Scripts/DetectCollisions.cs"
 "Assets/Scripts/FollowPlayer.cs"
