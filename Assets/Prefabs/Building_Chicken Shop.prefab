@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2927890567923184255}
   - component: {fileID: -2009211593153122936}
   - component: {fileID: -5878659023355536110}
+  - component: {fileID: -10925075292760795}
   m_Layer: 0
   m_Name: Building_Chicken Shop
   m_TagString: Building
@@ -133,3 +134,16 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 11.218786, y: 9.7579, z: 10.000432}
   m_Center: {x: -0.000025510788, y: 4.8779163, z: 0.20891619}
+--- !u!114 &-10925075292760795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7633050109605335934}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9756d2ad2e88477682753d7289aa9c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosionParticle: {fileID: 0}
