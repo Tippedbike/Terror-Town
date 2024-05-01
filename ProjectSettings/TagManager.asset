@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Building
+  - Bomb
   layers:
   - Default
   - TransparentFX
